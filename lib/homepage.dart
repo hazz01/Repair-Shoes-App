@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             Container(
-              padding: EdgeInsets.fromLTRB(24, screenHeight * 0.07, 24, 18),
+              padding: EdgeInsets.fromLTRB(24, screenHeight * 0.05, 24, 18),
               // padding: EdgeInsets.only(top: screenHeight * 0.02),
               // color: Colors.amber,
               decoration: BoxDecoration(
@@ -104,7 +104,7 @@ class _HomePageState extends State<HomePage> {
                         'My Wallet',
                         style: TextStyle(
                             fontFamily: 'SF Pro',
-                            fontSize: 22.0,
+                            fontSize: 20.0,
                             fontWeight: FontWeight.w300,
                             fontStyle: FontStyle.normal),
                       ),
@@ -118,12 +118,12 @@ class _HomePageState extends State<HomePage> {
                             'Rp. 25.000,-',
                             style: TextStyle(
                                 fontFamily: 'SF Pro',
-                                fontSize: 32.0,
+                                fontSize: 30.0,
                                 fontWeight: FontWeight.w700,
                                 fontStyle: FontStyle.normal),
                           ),
                           Container(
-                            width: 112,
+                            width: screenWidth * 0.25,
                             height: 32,
                             decoration: BoxDecoration(
                               color: Colors.green[600], // Background color blue
@@ -135,7 +135,7 @@ class _HomePageState extends State<HomePage> {
                                 '-RP. 10K',
                                 style: TextStyle(
                                     fontFamily: 'SF Pro',
-                                    fontSize: 14.0,
+                                    fontSize: 12.0,
                                     color: Colors.white,
                                     fontWeight: FontWeight.w600,
                                     fontStyle: FontStyle.normal),
@@ -154,7 +154,7 @@ class _HomePageState extends State<HomePage> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Container(
-                            width: 170,
+                            width: screenWidth * 0.4,
                             height: 50,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(
@@ -176,7 +176,7 @@ class _HomePageState extends State<HomePage> {
                                     'Refund',
                                     style: TextStyle(
                                         fontFamily: 'SF Pro',
-                                        fontSize: 20.0,
+                                        fontSize: 18.0,
                                         color: Colors.white,
                                         letterSpacing: 2,
                                         fontWeight: FontWeight.w600,
@@ -190,7 +190,7 @@ class _HomePageState extends State<HomePage> {
                             ),
                           ),
                           Container(
-                            width: 170,
+                            width: screenWidth * 0.4,
                             height: 50,
                             decoration: BoxDecoration(
                               color: const Color.fromARGB(
@@ -212,7 +212,7 @@ class _HomePageState extends State<HomePage> {
                                     'QRIS',
                                     style: TextStyle(
                                         fontFamily: 'SF Pro',
-                                        fontSize: 20.0,
+                                        fontSize: 18.0,
                                         color: Colors.white,
                                         letterSpacing: 2,
                                         fontWeight: FontWeight.w600,
@@ -234,7 +234,7 @@ class _HomePageState extends State<HomePage> {
                         'Activity',
                         style: TextStyle(
                             fontFamily: 'SF Pro',
-                            fontSize: 26.0,
+                            fontSize: 24.0,
                             letterSpacing: 1,
                             fontWeight: FontWeight.w700,
                             fontStyle: FontStyle.normal),
@@ -378,7 +378,7 @@ class GalleryBox extends StatelessWidget {
                 title,
                 style: const TextStyle(
                   fontFamily: 'SF Pro',
-                  fontSize: 18.0,
+                  fontSize: 16.0,
                   letterSpacing: 1,
                   fontWeight: FontWeight.w700,
                 ),
@@ -388,7 +388,7 @@ class GalleryBox extends StatelessWidget {
                 subtitle,
                 style: const TextStyle(
                   fontFamily: 'SF Pro',
-                  fontSize: 16.0,
+                  fontSize: 14.0,
                   letterSpacing: 1,
                   fontWeight: FontWeight.w400,
                   color: Colors.grey,
@@ -408,7 +408,7 @@ class GalleryBox extends StatelessWidget {
                 info,
                 style: TextStyle(
                   fontFamily: 'SF Pro',
-                  fontSize: 15,
+                  fontSize: 13,
                   color: statusColor,
                   // letterSpacing: 1,
                   fontWeight: FontWeight.w600,

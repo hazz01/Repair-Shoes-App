@@ -21,7 +21,7 @@ class _ExploreState extends State<Explore> {
         child: Column(
           children: [
             Container(
-              padding: EdgeInsets.fromLTRB(24, screenHeight * 0.07, 24, 18),
+              padding: EdgeInsets.fromLTRB(24, screenHeight * 0.05, 24, 18),
               // padding: EdgeInsets.only(top: screenHeight * 0.02),
               // color: Colors.amber,
               decoration: BoxDecoration(
@@ -202,16 +202,16 @@ class _ExploreState extends State<Explore> {
                               'Recomendation',
                               style: TextStyle(
                                   fontFamily: 'SF Pro',
-                                  fontSize: 20.0,
+                                  fontSize: 18.0,
                                   letterSpacing: 1,
                                   fontWeight: FontWeight.w700,
                                   fontStyle: FontStyle.normal),
                             ),
                             Text(
-                              'See All',
+                              'Filter',
                               style: TextStyle(
                                   fontFamily: 'SF Pro',
-                                  fontSize: 20.0,
+                                  fontSize: 18.0,
                                   letterSpacing: 1,
                                   color: Colors.blue,
                                   fontWeight: FontWeight.w700,
@@ -381,7 +381,7 @@ class GalleryBox extends StatelessWidget {
                     title,
                     style: const TextStyle(
                       fontFamily: 'SF Pro',
-                      fontSize: 18.0,
+                      fontSize: 16.0,
                       letterSpacing: 1,
                       fontWeight: FontWeight.w700,
                     ),
@@ -391,7 +391,7 @@ class GalleryBox extends StatelessWidget {
                     subtitle,
                     style: const TextStyle(
                       fontFamily: 'SF Pro',
-                      fontSize: 16.0,
+                      fontSize: 14.0,
                       letterSpacing: 1,
                       fontWeight: FontWeight.w400,
                       color: Colors.grey,
@@ -413,7 +413,7 @@ class GalleryBox extends StatelessWidget {
                 'Jalan Bromo',
                 style: TextStyle(
                   fontFamily: 'SF Pro',
-                  fontSize: 16.0,
+                  fontSize: 14.0,
                   letterSpacing: 1,
                   fontWeight: FontWeight.w400,
                   color: Colors.grey,
@@ -423,7 +423,7 @@ class GalleryBox extends StatelessWidget {
                 'Rp. 25.000 - Rp. 100.000',
                 style: TextStyle(
                   fontFamily: 'SF Pro',
-                  fontSize: 16.0,
+                  fontSize: 14.0,
                   letterSpacing: 1,
                   fontWeight: FontWeight.w500,
                   color: Colors.blue,
@@ -445,7 +445,7 @@ class GalleryBox extends StatelessWidget {
                     info,
                     style: TextStyle(
                       fontFamily: 'SF Pro',
-                      fontSize: 15,
+                      fontSize: 13,
                       color: statusColor,
                       // letterSpacing: 1,
                       fontWeight: FontWeight.w600,
@@ -467,7 +467,7 @@ class GalleryBox extends StatelessWidget {
                     day,
                     style: TextStyle(
                       fontFamily: 'SF Pro',
-                      fontSize: 15,
+                      fontSize: 13,
                       color: statusColor,
                       // letterSpacing: 1,
                       fontWeight: FontWeight.w600,

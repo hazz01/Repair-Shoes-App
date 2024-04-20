@@ -50,7 +50,8 @@ class ProfilePage extends StatelessWidget {
                         fit: BoxFit.cover,
                         colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.1), BlendMode.colorDodge),
                       ),
-                      borderRadius: BorderRadius.circular(20),
+                    
+                      // borderRadius: BorderRadius.circular(20),
                       color: Color.fromRGBO(222, 223, 255, 100),
                     ),
                     width: MediaQuery.of(context).size.width,
