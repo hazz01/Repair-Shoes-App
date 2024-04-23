@@ -6,6 +6,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:repair_shoes/account.dart';
 import 'package:repair_shoes/explore.dart';
 import 'package:repair_shoes/homepage.dart';
+import 'package:repair_shoes/login.dart';
 import 'package:water_drop_nav_bar/water_drop_nav_bar.dart';
 import 'package:repair_shoes/testingcuy.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
@@ -47,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => OnboardPage()),
+        MaterialPageRoute(builder: (context) => LoginPage()),
       );
     });
   }

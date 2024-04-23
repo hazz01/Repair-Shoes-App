@@ -118,7 +118,7 @@ class _ExploreState extends State<Explore> {
                               Opacity(
                                 opacity: .5,
                                 // child: Image.asset('images/doodle.jpg')
-                                    // fit: BoxFit.cover),
+                                // fit: BoxFit.cover),
                               ),
                               // Image.network(
                               //     "https://firebasestorage.googleapis.com/v0/b/flutterbricks-public.appspot.com/o/Image.png?alt=media&token=8256c357-cf86-4f76-8c4d-4322d1ebc06c"),
@@ -129,7 +129,8 @@ class _ExploreState extends State<Explore> {
                                   child: Column(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       const Text(
                                         "Do you want to find\na tailor near you?",
@@ -141,50 +142,74 @@ class _ExploreState extends State<Explore> {
                                             fontStyle: FontStyle.normal),
                                       ),
                                       Container(
-                                        width: 132,
-                                        height: 32,
+                                        width: 100,
                                         decoration: BoxDecoration(
-                                          color: const Color.fromARGB(255, 207,
-                                              207, 207), // Background color blue
-                                          borderRadius:
-                                              BorderRadius.circular(10.0),
+                                          borderRadius: BorderRadius.circular(
+                                              10.0), // Menyesuaikan dengan preferensi Anda
+                                          color: Colors
+                                              .white, // Warna latar belakang tombol
                                         ),
-                                        child: Center(
-                                          child: IconButton(
-                                            icon: const Expanded(
-                                              child: Row(
-                                                // mainAxisAlignment:
-                                                //     MainAxisAlignment.spaceEvenly,
-                                                // crossAxisAlignment: CrossAxisAlignment.center,
-                                                children: [
-                                                  Text(
-                                                    'Refund',
-                                                    style: TextStyle(
-                                                        fontFamily: 'SF Pro',
-                                                        fontSize: 1.0,
-                                                        color: Colors.white,
-                                                        // letterSpacing: 2,
-                                                        fontWeight:
-                                                            FontWeight.w600,
-                                                        fontStyle:
-                                                            FontStyle.normal),
-                                                  ),
-                                                  Icon(
-                                                    Icons
-                                                        .settings_backup_restore_sharp,
-                                                    color: Colors
-                                                        .white, // Warna ikon putih
-                                                    size: 10,
-                                                  ),
-                                                ],
-                                              ),
+                                        child: TextButton(
+                                          onPressed: () {},
+                                          child: Text(
+                                            'Search',
+                                            style: TextStyle(
+                                              fontFamily: 'SF Pro',
+                                              fontSize: 20.0,
+                                              color: Colors.black,
+                                              // letterSpacing: 2,
+                                              fontWeight: FontWeight.w600,
+                                              fontStyle: FontStyle.normal,
                                             ),
-                                            onPressed: () {
-                                              // Function to handle when the notification button is pressed
-                                            },
                                           ),
                                         ),
                                       ),
+
+                                      // Container(
+                                      //   width: 132,
+                                      //   height: 32,
+                                      //   decoration: BoxDecoration(
+                                      //     color: const Color.fromARGB(255, 207,
+                                      //         207, 207), // Background color blue
+                                      //     borderRadius:
+                                      //         BorderRadius.circular(10.0),
+                                      //   ),
+                                      //   child: Center(
+                                      //     child: IconButton(
+                                      //       icon: const Expanded(
+                                      //         child: Row(
+                                      //           // mainAxisAlignment:
+                                      //           //     MainAxisAlignment.spaceEvenly,
+                                      //           // crossAxisAlignment: CrossAxisAlignment.center,
+                                      //           children: [
+                                      //             Text(
+                                      //               'Refund',
+                                      //               style: TextStyle(
+                                      //                   fontFamily: 'SF Pro',
+                                      //                   fontSize: 10.0,
+                                      //                   color: Colors.black,
+                                      //                   // letterSpacing: 2,
+                                      //                   fontWeight:
+                                      //                       FontWeight.w600,
+                                      //                   fontStyle:
+                                      //                       FontStyle.normal),
+                                      //             ),
+                                      //             // Icon(
+                                      //             //   Icons
+                                      //             //       .settings_backup_restore_sharp,
+                                      //             //   color: Colors
+                                      //             //       .white, // Warna ikon putih
+                                      //             //   size: 10,
+                                      //             // ),
+                                      //           ],
+                                      //         ),
+                                      //       ),
+                                      //       onPressed: () {
+                                      //         // Function to handle when the notification button is pressed
+                                      //       },
+                                      //     ),
+                                      //   ),
+                                      // ),
                                     ],
                                   ),
                                 ),
@@ -327,11 +352,9 @@ class GalleryBox extends StatelessWidget {
         daySize = 80;
         break;
       case 'Processed':
-
         daySize = 100;
         break;
       case 'Delivered':
-
         daySize = 80;
         break;
       default:

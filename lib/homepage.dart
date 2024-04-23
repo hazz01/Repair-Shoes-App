@@ -249,16 +249,16 @@ class _HomePageState extends State<HomePage> {
                             children: [
                               Expanded(
                                 child: GalleryBox(
-                                  title: 'Title 1',
-                                  subtitle: 'Subtitle 1',
+                                  title: 'Asrostreet',
+                                  subtitle: 'Penjahit Jalan Bromo',
                                   info: 'Done',
                                 ),
                               ),
                               SizedBox(width: 16.0),
                               Expanded(
                                 child: GalleryBox(
-                                  title: 'Title 2',
-                                  subtitle: 'Subtitle 2',
+                                  title: 'Pantofel',
+                                  subtitle: 'Penjahit Jalan Kawi',
                                   info: 'Rejected',
                                 ),
                               ),
@@ -269,8 +269,8 @@ class _HomePageState extends State<HomePage> {
                             children: [
                               Expanded(
                                 child: GalleryBox(
-                                  title: 'Title 3',
-                                  subtitle: 'Subtitle 3',
+                                  title: 'Adidas',
+                                  subtitle: 'Penjahat',
                                   info: 'Processed',
                                 ),
                               ),
